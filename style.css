@@ -1,0 +1,117 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: poppins, sans-serif;
+	font-weight: 700;
+	max-width: 600px;
+	margin: auto;
+}
+.logo-wrapper {
+	height: 3rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 0.2rem;
+}
+.logo-wrapper img {
+	width: 2.8rem;
+}
+.video {
+	width: 100%;
+	height: 17.5rem;
+	object-fit: contain;
+}
+.container {
+	margin-top: 1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 0 30px;
+}
+.cta {
+	padding: 0.5rem 2rem;
+	font-size: 1.4rem;
+	font-family: poppins, sans-serif;
+	font-weight: 700;
+	background: rgb(54 63 82);
+	color: #fff;
+	border: none;
+	border-radius: 10px;
+	width: 100%;
+	text-align: center;
+}
+.project .container {
+	width: 80%;
+}
+.project video {
+	border-radius: 12px 12px 0 0;
+}
+img.loaded,
+video.loaded,
+.shop img,
+.shop video {
+	-webkit-filter: blur(0px);
+	filter: blur(0px);
+}
+embed,
+iframe,
+img,
+object,
+video {
+	height: auto;
+	max-width: 100%;
+}
+.project .card {
+	border-radius: 12px;
+	display: block;
+}
+.project .title {
+	color: #fff;
+}
+.card-content {
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+.card-content::-webkit-scrollbar {
+	display: none;
+}
+.c1 {
+	transform: rotate(4deg);
+	background-color: #38a14e;
+}
+.c2 {
+	transform: rotate(-2deg);
+	background-color: #bd114e;
+}
+.c3 {
+	transform: rotate(2deg);
+	background-color: #ed7f1e;
+}
+.c4 {
+	transform: rotate(4deg);
+	background-color: #723389;
+}
+.c1:hover,
+.c2:hover,
+.c3:hover,
+.c4:hover {
+	transform: rotate(0deg);
+	box-shadow: 10px 10px 5px #7a7a7a;
+}
+.grid-bg {
+	background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0IiBoZWlnaHQ9IjQiIHZpZXdCb3g9IjAgMCA0IDQiPjxwYXRoIGZpbGw9IiM5QzkyQUMiIGZpbGwtb3BhY2l0eT0iMC40IiBkPSJNMSAzaDF2MUgxVjN6bTItMmgxdjFIM1YxeiI+PC9wYXRoPjwvc3ZnPg==);
+}
+.grid-bg .title {
+	padding-bottom: 25px;
+}
+card {
+	background-color: #fff;
+	box-shadow: 0 2px 3px rgb(10 10 10/10%), 0 0 0 1px rgb(10 10 10/10%);
+	color: #4a4a4a;
+	max-width: 100%;
+	position: relative;
+}
